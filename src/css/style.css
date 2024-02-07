@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    overflow-x: hidden;
+    max-height: auto;
+}
+
+
+header {
+    background-color: #AF3C16;
+    height: 100px;
+    width: 100%;
+}
+
+.fundo {
+    position: relative;
+}
+
+.fundo img {
+    width: 1880px;
+    object-fit: cover;
+    display: block
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1880px;
+    height: 1070px;
+    background-color: rgba(59, 34, 1, 0.384);
+}
+
+.background {
+    position: relative;
+}
+
+
+.box {
+    position: absolute;
+    width: 550px;
+    height: 720px;
+    background-color: #ffffff13;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    left: 150px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conteudo p {
+    font-size: 64px;
+}
+
+.conteudo label {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo input {
+    border: none;
+    border-radius: 14px;
+    background-color: #ffd9b794;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 75px;
+}
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo button {
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: #f0b37f;
+}
+
+.kami {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+.balao {
+    position: absolute;
+    top: 30px;
+    right: 450px;
+    
+}
+

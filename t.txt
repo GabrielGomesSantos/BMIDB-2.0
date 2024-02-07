@@ -1,0 +1,43 @@
+<div class="section" id="resultSection">
+    <!-- Conteúdo da seção de resultados -->
+    <h2>Resultados</h2>
+
+    <?php
+    $nome = $_POST['nome'];
+    $peso = $_POST['peso'];
+    $altura = $_POST['altura'];
+
+    $resultado = $peso / ($altura * $altura);
+
+    echo "O BMI de $nome é: $resultado";
+
+    if ($resultado < 18.5) {
+        echo "Baixo peso";
+    } elseif ($resultado >= 18.5 && $resultado < 25) {
+        echo "Peso normal";
+    } else {
+        echo "Sobrepeso";
+    }
+  ?>
+
+    <img src="src/img/boo_1.png" alt="">
+    <img src="src/img/boo_2.png" alt="">
+    <img src="src/img/boo_3.png" alt="">
+  </div>
+
+    
+
+
+Majin Boo incentiva a alcançar um corpo Boo-lindo e saudável através do cuidado com o BMI!
+
+
+
+voce esta booNito 
+
+
+
+A sua saúde está tão equilibrada quanto a força de um Super Boo! Com um IMC de 19, você está no caminho certo para uma jornada de bem-estar. Continue assim, e você será mais forte do que qualquer susto que o Boo possa dar!
+
+"Parabéns! Seu IMC está na faixa normal, sua saúde reflete a harmonia de um treinamento zen. Que essa balança equilibrada inspire você a continuar nutrindo seu corpo e mente com escolhas saudáveis. Continue nesse caminho saudável e equilibrado!"
+
+"Parabéns! Seu IMC está na faixa normal, tão equilibrado quanto o poder do Super Boo. Continue a trilhar o caminho da saúde e da vitalidade, inspirando-se na força deste Majin Boo. Que cada escolha saudável seja um passo rumo ao seu bem-estar."
