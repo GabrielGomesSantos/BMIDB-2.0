@@ -41,3 +41,5 @@ A sua saúde está tão equilibrada quanto a força de um Super Boo! Com um IMC 
 "Parabéns! Seu IMC está na faixa normal, sua saúde reflete a harmonia de um treinamento zen. Que essa balança equilibrada inspire você a continuar nutrindo seu corpo e mente com escolhas saudáveis. Continue nesse caminho saudável e equilibrado!"
 
 "Parabéns! Seu IMC está na faixa normal, tão equilibrado quanto o poder do Super Boo. Continue a trilhar o caminho da saúde e da vitalidade, inspirando-se na força deste Majin Boo. Que cada escolha saudável seja um passo rumo ao seu bem-estar."
+
+git remote add origin https://github.com/GabrielGomesSantos/BMIDB-2.0.git
