@@ -39,7 +39,7 @@
                     <br>
 
                     <div class="butt">
-                        <button id="btn">analizar</button>
+                        <button id="btn">anasdlizar</button>
 
                     </div>
 
