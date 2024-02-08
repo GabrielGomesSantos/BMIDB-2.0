@@ -33,6 +33,7 @@ header {
 
 .background {
     position: relative;
+    overflow-y: hidden;
 }
 
 
@@ -40,7 +41,7 @@ header {
     position: absolute;
     width: 550px;
     height: 720px;
-    background-color: #ffffff13;
+    background-color: #ffffff57;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -74,6 +75,8 @@ header {
     margin-bottom: 75px;
 }
 .butt {
+    margin-left: 60px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,3 +105,50 @@ header {
     
 }
 
+/* parte 2  */
+
+
+.fundo_2 {
+    position: relative;
+}
+
+.fundo_2 img {
+    width: 1880px;
+    object-fit: cover;
+    display: block
+}
+
+.medidor {
+    padding: 30px;
+    background-color: #29f63e4b;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 1200px;
+    border-radius: 12% 22% 22% 12% / 12% 22% 22% 12% ;
+}
+
+.kami_2 {
+    position: absolute;
+    top: 1400px;
+    left: 350px;
+}
+
+.box_2 {
+    position: absolute;
+    width: 450px;
+    height: 720px;
+    background-color: #ffffff57;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 1300px;
+    right: 200px;
+}
+
+.box_2 p {
+    text-align: center;
+    font-size: 36px;
+}

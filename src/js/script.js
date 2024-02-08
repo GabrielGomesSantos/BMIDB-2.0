@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     botao.addEventListener('click', (e) => {
         e.preventDefault();
-        window.scroll({ top: window.innerHeight, behavior: "smooth" });
+        window.scroll({ top: window.innerHeight * 2});
     });
 });
