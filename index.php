@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>BMI DBZ</title>
     <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
@@ -25,7 +25,7 @@
                 <form action="index.php" method="post">
 
                     <label for="nome">Nome:</label><br>
-s                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome">
                     <br>
                     <label for="peso">Peso:</label><br>
                     <input type="number" name="peso" id="peso" min="40" max="180" >
@@ -35,7 +35,7 @@ s                    <input type="text" name="nome" id="nome">
                     
                     
                     <div class="butt">
-                        <input type="submit" id="btn" value="envia action">
+                        <input type="submit" id="btn" value="Analizar">
                     </div>                  
                     
                 </form>
